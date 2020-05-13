@@ -1,0 +1,331 @@
+*{
+    box-sizing: border-box;
+}
+
+
+/*meny*/
+
+header{
+    width: 100%;
+    position:absolute;
+    z-index: 12;
+}
+
+.menu {
+    list-style-type: none;
+    background-color: white;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    border-radius: 0px;  
+    
+}
+
+.menu h3{
+    float: left;
+    font-family: 'Biryani', sans-serif;
+    padding-left: 100px;
+    padding-top: 70px;
+    color: #5B718A;
+    font-size: 5vw;
+    text-decoration: none;
+}
+
+.menu h3 a{
+    text-decoration: none;
+    display: block;
+    color: #5B718A;
+}
+
+.menu h3 a:hover{
+    opacity: 80%;
+    color: #5B718A;
+}
+
+.menu h3 a:active{
+    opacity: 100%;
+    color: white;
+}
+
+.menu ul li{
+    list-style-type: none;
+    float: right;
+    font-family:  'Source Sans Pro', sans-serif;
+}
+
+.menu ul li a{
+    color: black;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    padding-top: 100px;
+}
+
+.menu ul li a:hover{
+    opacity: 50%;
+}
+
+.menu ul li a:active{
+    opacity: 100%;
+    color: white;
+}
+
+/*header*/
+
+#header img{
+    width: 100%;
+    height: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+
+
+
+
+/*innhold forside*/
+
+hr{
+    border: 0.1px solid black;
+    width: 84.4%;
+    text-align: center;
+   
+}
+
+.hoveddel section{
+    padding-top: 25px;
+}
+
+#okoinfo{
+    padding-bottom: 250px;
+}
+
+#okoinfo p{
+     width: 60%;
+    float: right;
+    padding-right: 190px;
+    padding-top: 30px;
+    text-align: justify;
+    list-style: none;
+    padding-bottom: 600;
+    text-decoration: none;
+    font-family: 'Source sans pro', sans-serif;
+    color: black;
+    font-size: 1.2vw;
+}
+
+#okoinfo div{
+    width: 40%;
+    float: left;
+    padding-left: 110px;
+    padding-top: 110px;
+    padding-bottom: 45px;
+    text-align: justify;
+    text-decoration: none;
+    font-family: 'Biryani', sans-serif;
+    font-size: 3vw;
+
+}
+
+#infografikk div{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#infografikk img{
+    width: 100%;
+    height: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+
+
+#contact{
+    padding-top: 10px;
+}
+
+#contact-form{
+   padding-left: 250px;
+    padding-right: 250px;
+    height: auto;
+    float: inherit;
+    padding-top: 10px;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Source sans pro', sans-serif;
+}
+
+
+
+h4{
+    text-decoration: none;
+    font-family: 'Biryani', sans-serif;
+    font-size: 3.5vw;
+    color: #5B718A;
+    text-align:inherit;
+    padding-left: 100px;
+}
+
+h5{
+    text-decoration: none;
+    font-family: 'Biryani', sans-serif;
+    font-size: 2.5vw;
+    color: #5B718A;
+    text-align:inherit;
+    padding-left: 100px;
+}
+
+#spor form {
+    text-align: inherit;
+    padding-left: 200px;
+    
+}
+
+
+
+#spor input, textarea, button{
+    text-decoration: none;
+    font-family: 'Source sans pro', sans-serif;
+    color: black;
+    font-size: 1.2vw;
+    margin: 0;
+    text-align:left;
+}
+
+
+
+.overskrift h2{
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Biryani', sans-serif;
+    font-size: 2.8vw;
+}
+
+.overskrift h6{
+    padding-top: 250px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Source sans pro', sans-serif ;
+    color: grey;
+    font-size: 1vw;
+    
+}
+
+
+footer{
+    width: 100%;
+    text-align: center;
+    background-color: white; 
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-decoration: none;
+    font-family: 'Source sans pro', sans-serif;
+}
+    
+
+.col-md-4 a:hover{
+    opacity: 50%;
+    
+}
+
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+
+.col-md-4 button{
+    font-family: 'Source sans pro', sans-serif ;
+    text-decoration: none;
+    color: black;
+}
+
+.col-md-4 a{
+    text-decoration: none;
+    color: black;
+}
+
+.col-md-4 a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.col-md-4 a:active{
+    
+}
+
+
+.col-md-4 p{
+    text-decoration: none;
+    font-family: 'Source sans pro', sans-serif ;
+    font-size: 1.2vw;
+}
+
+
+.wrapper{
+    text-decoration: none;
+    font-family: 'Biryani', sans-serif;
+    font-size: 2.5vw;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.card-img-top{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+}
+
+.content{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-size: 2.2vw;
+    color: #5B718A;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.overlay{
+    opacity: 0;
+}
+
+.wrapper:hover img{
+    opacity: 0.5;
+}
+
+.wrapper:hover .overlay{
+    opacity: 1;
+    
+}
+
+
+
+
+.insta a:hover{
+    opacity: 70%;
+}
+
+.insta img{
+    width: 22.6%;
+    height: auto;
+}
+
+
+.insta{
+    padding-left: 100px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.hoveddel{
+    background-color: #f8f9fa;
+}
+
